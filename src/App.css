@@ -42,3 +42,8 @@ body{
   /* font-family: 'brand'; */
   padding: 20px 60px
 }
+
+a {
+  text-decoration: none;
+  color: black;
+}
