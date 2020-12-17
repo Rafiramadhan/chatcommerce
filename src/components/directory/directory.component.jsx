@@ -10,36 +10,41 @@ class Directory extends React.Component {
     this.state = {
       sections: [
         {
-          title: "hats",
-          imageUrl: "https://i.ibb.co/cvpntL1/hats.png",
+          title: "Kopi Tetangga",
+          imageUrl:
+            "https://d1sag4ddilekf6.cloudfront.net/compressed/items/6-CZBFGKABAAEBRE-CZB1JLA2PF4JT2/photo/a2e4b470691e4898b590c7274e41cf43_1583742818742077797.jpg",
           id: 1,
-          linkUrl: "hats",
+          linkUrl: "shop/kopteng",
         },
         {
-          title: "jackets",
-          imageUrl: "https://i.ibb.co/px2tCc3/jackets.png",
+          title: "Kopi Premium",
+          imageUrl:
+            "https://d1sag4ddilekf6.cloudfront.net/compressed/items/6-CZBFGKABAAEBRE-CZB1JLA3SFWGTE/photo/2869386ef9da4519b81735c29dc16e63_1583742819855670226.jpg",
           id: 2,
-          linkUrl: "shop/jackets",
+          linkUrl: "shop/kopipremium",
         },
         {
-          title: "sneakers",
-          imageUrl: "https://i.ibb.co/0jqHpnp/sneakers.png",
+          title: "Selain Kopi",
+          imageUrl:
+            "https://d1sag4ddilekf6.cloudfront.net/compressed/items/IDITE2020031600313520553/photo/menueditor_item_4ce7ce071b5b4fa389698274fc30279e_1596936669739176951.jpg",
           id: 3,
-          linkUrl: "shop/sneakers",
+          linkUrl: "shop/selkop",
         },
         {
-          title: "womens",
-          imageUrl: "https://i.ibb.co/GCCdy8t/womens.png",
+          title: "Tukucur",
+          imageUrl:
+            "https://ecs7.tokopedia.net/img/cache/700/product-1/2020/5/9/101671299/101671299_cef2d04b-050d-41e8-aae4-873461c0f5f8_684_684.jpg",
           size: "large",
           id: 4,
-          linkUrl: "shop/womens",
+          linkUrl: "shop/tukucur",
         },
         {
-          title: "mens",
-          imageUrl: "https://i.ibb.co/R70vBrQ/men.png",
+          title: "tukudapan",
+          imageUrl:
+            "https://d1sag4ddilekf6.cloudfront.net/compressed/items/6-CZBFGKABAAEBRE-CZB1JLBECREYEE/photo/3bf29c036cc44c88a4ba546430b035f4_1583742824178932264.jpg",
           size: "large",
           id: 5,
-          linkUrl: "shop/mens",
+          linkUrl: "shop/tukudapan",
         },
       ],
     };
