@@ -1,30 +1,30 @@
 const SHOP_DATA = [{
         id: 1,
-        title: 'Hats',
+        title: 'Kopi Tetangga',
         routeName: 'hats',
         items: [{
                 id: 1,
-                name: 'Brown Brim',
+                name: 'Kopi Susu Tetangga (Hot)',
                 imageUrl: 'https://i.ibb.co/ZYW3VTp/brown-brim.png',
-                price: 25
+                price: 18000
             },
             {
                 id: 2,
-                name: 'Blue Beanie',
+                name: 'Es Kopi susu tetangga',
                 imageUrl: 'https://i.ibb.co/ypkgK0X/blue-beanie.png',
-                price: 18
+                price: 18000
             },
             {
                 id: 3,
-                name: 'Brown Cowboy',
+                name: 'Kopi Hitam Tetangga Panas',
                 imageUrl: 'https://i.ibb.co/QdJwgmp/brown-cowboy.png',
-                price: 35
+                price: 18000
             },
             {
                 id: 4,
-                name: 'Grey Brim',
+                name: 'Es Kopi Hitam Tetangga',
                 imageUrl: 'https://i.ibb.co/RjBLWxB/grey-brim.png',
-                price: 25
+                price: 18000
             },
             {
                 id: 5,
@@ -60,43 +60,43 @@ const SHOP_DATA = [{
     },
     {
         id: 2,
-        title: 'Sneakers',
+        title: 'TUKUCUR',
         routeName: 'sneakers',
         items: [{
                 id: 1,
                 name: 'Adidas NMD',
                 imageUrl: 'https://i.ibb.co/0s3pdnc/adidas-nmd.png',
-                price: 220
+                price: 85000
             },
             {
                 id: 2,
-                name: 'Adidas Yeezy',
+                name: 'TUKUCUR Es Teh Remon',
                 imageUrl: 'https://i.ibb.co/dJbG1cT/yeezy.png',
-                price: 280
+                price: 55000
             },
             {
                 id: 3,
-                name: 'Black Converse',
+                name: 'TUKUCUR Cold Brew',
                 imageUrl: 'https://i.ibb.co/bPmVXyP/black-converse.png',
-                price: 110
+                price: 85000
             },
             {
                 id: 4,
-                name: 'Nike White AirForce',
+                name: 'TUKUCUR Earl Grey Milk Tea',
                 imageUrl: 'https://i.ibb.co/1RcFPk0/white-nike-high-tops.png',
-                price: 160
+                price: 95000
             },
             {
                 id: 5,
-                name: 'Nike Red High Tops',
+                name: 'TUKUCUR Chocolate',
                 imageUrl: 'https://i.ibb.co/QcvzydB/nikes-red.png',
-                price: 160
+                price: 95000
             },
             {
                 id: 6,
-                name: 'Nike Brown High Tops',
+                name: 'TUKU-in',
                 imageUrl: 'https://i.ibb.co/fMTV342/nike-brown.png',
-                price: 160
+                price: 55000
             },
             {
                 id: 7,
@@ -114,79 +114,109 @@ const SHOP_DATA = [{
     },
     {
         id: 3,
-        title: 'Jackets',
+        title: 'Kopi Premium',
         routeName: 'jackets',
         items: [{
                 id: 1,
-                name: 'Black Jean Shearling',
+                name: 'Long Black (Hot)',
                 imageUrl: 'https://i.ibb.co/XzcwL5s/black-shearling.png',
-                price: 125
+                price: 25000
             },
             {
                 id: 2,
-                name: 'Blue Jean Jacket',
+                name: 'Ice Long Black',
                 imageUrl: 'https://i.ibb.co/mJS6vz0/blue-jean-jacket.png',
-                price: 90
+                price: 28000
             },
             {
                 id: 3,
-                name: 'Grey Jean Jacket',
+                name: 'Latte (Hot)',
                 imageUrl: 'https://i.ibb.co/N71k1ML/grey-jean-jacket.png',
-                price: 90
+                price: 25000
             },
             {
                 id: 4,
-                name: 'Brown Shearling',
+                name: 'Iced Latte ',
                 imageUrl: 'https://i.ibb.co/s96FpdP/brown-shearling.png',
-                price: 165
+                price: 28000
             },
             {
                 id: 5,
-                name: 'Tan Trench',
+                name: 'Cappucino (Hot)',
                 imageUrl: 'https://i.ibb.co/M6hHc3F/brown-trench.png',
-                price: 185
+                price: 25000
+            },
+            {
+                id: 6,
+                name: 'Iced Cappucino',
+                imageUIrl: 'https://i.ibb.co/M6hHc3F/brown-trench.png',
+                price: 28000
+            },
+            {
+                id: 7,
+                name: 'Caramel Macchiato ( Hot)',
+                imageUIrl: 'https://i.ibb.co/M6hHc3F/brown-trench.png',
+                price: 30000
+            },
+            {
+                id: 8,
+                name: 'Iced Caramel Macchiato',
+                imageUIrl: 'https://i.ibb.co/M6hHc3F/brown-trench.png',
+                price: 34000
+            },
+            {
+                id: 9,
+                name: 'Peppermint Mocha (Hot)',
+                imageUIrl: 'https://i.ibb.co/M6hHc3F/brown-trench.png',
+                price: 30000
+            },
+            {
+                id: 10,
+                name: 'Iced Peppermint Mocha',
+                imageUIrl: 'https://i.ibb.co/M6hHc3F/brown-trench.png',
+                price: 34000
             }
         ]
     },
     {
         id: 4,
-        title: 'Womens',
+        title: 'Selain Kopi',
         routeName: 'womens',
         items: [{
                 id: 1,
-                name: 'Blue Tanktop',
+                name: 'Earl Grey Tea (Hot)',
                 imageUrl: 'https://i.ibb.co/7CQVJNm/blue-tank.png',
-                price: 25
+                price: 20000
             },
             {
                 id: 2,
-                name: 'Floral Blouse',
+                name: 'Iced Earl Grey Tea',
                 imageUrl: 'https://i.ibb.co/4W2DGKm/floral-blouse.png',
-                price: 20
+                price: 20000
             },
             {
                 id: 3,
-                name: 'Floral Dress',
+                name: 'Earl Grey Milk Tea (Hot)',
                 imageUrl: 'https://i.ibb.co/KV18Ysr/floral-skirt.png',
-                price: 80
+                price: 25000
             },
             {
                 id: 4,
-                name: 'Red Dots Dress',
+                name: 'Iced Earl Grey Milk Tea',
                 imageUrl: 'https://i.ibb.co/N3BN1bh/red-polka-dot-dress.png',
-                price: 80
+                price: 25000
             },
             {
                 id: 5,
-                name: 'Striped Sweater',
+                name: 'Chocolate (Hot)',
                 imageUrl: 'https://i.ibb.co/KmSkMbH/striped-sweater.png',
-                price: 45
+                price: 25000
             },
             {
                 id: 6,
-                name: 'Yellow Track Suit',
+                name: 'Iced Chocolate',
                 imageUrl: 'https://i.ibb.co/v1cvwNf/yellow-track-suit.png',
-                price: 135
+                price: 25000
             },
             {
                 id: 7,
@@ -198,44 +228,87 @@ const SHOP_DATA = [{
     },
     {
         id: 5,
-        title: 'Mens',
+        title: '#TUKUdapan',
         routeName: 'mens',
         items: [{
                 id: 1,
-                name: 'Camo Down Vest',
+                name: 'Tahu Schotel',
                 imageUrl: 'https://i.ibb.co/xJS0T3Y/camo-vest.png',
-                price: 325
+                price: 5000
             },
             {
                 id: 2,
-                name: 'Floral T-shirt',
+                name: 'Bolu Wortel',
                 imageUrl: 'https://i.ibb.co/qMQ75QZ/floral-shirt.png',
-                price: 20
+                price: 10000
             },
             {
                 id: 3,
-                name: 'Black & White Longsleeve',
+                name: 'Bolu Cokelat',
                 imageUrl: 'https://i.ibb.co/55z32tw/long-sleeve.png',
-                price: 25
+                price: 10000
             },
             {
                 id: 4,
-                name: 'Pink T-shirt',
+                name: 'Banana Bread',
                 imageUrl: 'https://i.ibb.co/RvwnBL8/pink-shirt.png',
-                price: 25
+                price: 10000
             },
             {
                 id: 5,
-                name: 'Jean Long Sleeve',
+                name: 'Donat Cokelat',
                 imageUrl: 'https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png',
-                price: 40
+                price: 8000
             },
             {
                 id: 6,
-                name: 'Burgundy T-shirt',
+                name: 'Donat Kampung',
                 imageUrl: 'https://i.ibb.co/mh3VM1f/polka-dot-shirt.png',
-                price: 25
+                price: 5000
+            },
+            {
+                id: 7,
+                name: 'Onigiri Salmay',
+                imageUrl: 'https://i.ibb.co/mh3VM1f/polka-dot-shirt.png',
+                price: 15000
+            },
+            {
+                id: 8,
+                name: 'Onigiri Cakalang',
+                imageUrl: 'https://i.ibb.co/mh3VM1f/polka-dot-shirt.png',
+                price: 15000
+            },
+            {
+                id: 9,
+                name: 'Onigiri Tuna Mayo',
+                imageUrl: 'https://i.ibb.co/mh3VM1f/polka-dot-shirt.png',
+                price: 15000
+            },
+            {
+                id: 10,
+                name: 'Lumpia Ayam',
+                imageUrl: 'https://i.ibb.co/mh3VM1f/polka-dot-shirt.png',
+                price: 5000
+            },
+            {
+                id: 11,
+                name: 'Martabak Linting Cokelat Kacang',
+                imageUrl: 'https://i.ibb.co/mh3VM1f/polka-dot-shirt.png',
+                price: 10000
+            },
+            {
+                id: 12,
+                name: 'Martabak Linting Keju Gula Jawa',
+                imageUrl: 'https://i.ibb.co/mh3VM1f/polka-dot-shirt.png',
+                price: 10000
+            },
+            {
+                id: 13,
+                name: `Kukis Oatmeal Coklat`,
+                imageUrl: 'https://i.ibb.co/mh3VM1f/polka-dot-shirt.png',
+                price: 10000
             }
+
         ]
     }
 ]
