@@ -5,6 +5,8 @@ import CustomButton from "../custom-button/custom-button.component";
 
 import { auth, createUserProfileDocument } from "../../firebase/firebase.utils";
 
+import { InputText, Button } from "@aksara-ui/core";
+
 import "./sign-up.styles.scss";
 
 class SignUp extends React.Component {
@@ -35,7 +37,7 @@ class SignUp extends React.Component {
         password
       );
 
-      await createUserProfileDocument(user, {displayName});
+      await createUserProfileDocument(user, { displayName });
 
       this.setState({
         displayName: "",
@@ -61,7 +63,7 @@ class SignUp extends React.Component {
         <h2 className="title">I do not have an account</h2>
         <span>Sign up with your email and password</span>
         <form className="sign-up-form" onSubmit={this.handleSubmit}>
-          <FormInput
+          {/* <FormInput
             type="text"
             name="displayName"
             value={displayName}
@@ -92,8 +94,48 @@ class SignUp extends React.Component {
             onChange={this.handleChange}
             label="Confirm Password"
             required
+          /> */}
+          <InputText
+            type="text"
+            name="displayName"
+            value={displayName}
+            placeholder="Display Name"
+            onChange={this.handleChange}
+            label="Display Name"
+            style={{ margin: "10px 0px" }}
+            required
           />
-          <CustomButton type="submit">SIGN UP</CustomButton>
+          <InputText
+            type="email"
+            name="email"
+            value={email}
+            placeholder="Email"
+            onChange={this.handleChange}
+            label="Email"
+            style={{ margin: "10px 0px" }}
+            required
+          />
+          <InputText
+            type="password"
+            name="password"
+            value={password}
+            placeholder="Password"
+            onChange={this.handleChange}
+            label="Password"
+            style={{ margin: "10px 0px" }}
+            required
+          />
+          <InputText
+            type="password"
+            name="confirmPassword"
+            placeholder="Confirm Password"
+            value={confirmPassword}
+            onChange={this.handleChange}
+            label="Confirm Password"
+            style={{ margin: "10px 0px" }}
+            required
+          />
+          <Button type="submit" size={40} variant="outline">SIGN UP</Button>
         </form>
       </div>
     );

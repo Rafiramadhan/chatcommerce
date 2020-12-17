@@ -44,27 +44,62 @@ class SignIn extends React.Component {
         <span>Sign in with your email and password</span>
 
         <form onSubmit={this.handleSubmit}>
-          <FormInput
+          {/* <FormInput
             name="email"
             type="email"
             label="email"
             handleChange={this.handleChange}
             value={this.state.email}
             required
+          /> */}
+          <InputText
+            name="email"
+            type="email"
+            label="email"
+            onChange={this.handleChange}
+            // handleChange={this.handleChange}
+            value={this.state.email}
+            placeholder="email"
+            style={{ margin: "10px 0px" }}
+            required
           />
-          <FormInput
+          {/* <FormInput
             name="password"
             type="password"
             label="password"
             value={this.state.password}
             handleChange={this.handleChange}
             required
+          /> */}
+          <InputText
+            name="password"
+            type="password"
+            label="password"
+            onChange={this.handleChange}
+            // handleChange={this.handleChange}
+            value={this.state.password}
+            placeholder="password"
+            style={{ margin: "10px 0px" }}
+            required
           />
           <div className="buttons">
-            <CustomButton type="submit">Sign in</CustomButton>
-            <CustomButton type="button" onClick={SignInWithGoogle} isGoogleSignIn>
+            {/* <CustomButton type="submit">Sign in</CustomButton> */}
+            <Button
+              type="submit"
+              size={40}
+              variant="outline"
+            >
+              Sign in
+            </Button>
+            <Button
+              type="button"
+              onClick={SignInWithGoogle}
+              size={40}
+              variant="primary"
+              isGoogleSignIn
+            >
               Sign in with Google
-            </CustomButton>
+            </Button>
             {/* <Button
               block={false}
               className="buttons"
